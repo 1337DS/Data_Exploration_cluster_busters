@@ -1,0 +1,11 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+# keras imports for the dataset and building our neural network
+from keras.datasets import mnist
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Conv2D, MaxPool2D, Flatten
+from keras.utils import np_utils
+
+from sklearn.metrics import confusion_matrix , classification_report
