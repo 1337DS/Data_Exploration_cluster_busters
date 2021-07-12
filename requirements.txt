@@ -1,11 +1,29 @@
+# Pandas to load data
 import pandas as pd
+# Seaborn & Matplotlib for visualizing
 import seaborn as sns
 import matplotlib.pyplot as plt
+# split data into training and testing data
 from sklearn.model_selection import train_test_split
 # keras imports for the dataset and building our neural network
+import keras
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Conv2D, MaxPool2D, Flatten
+from keras.layers.normalization import BatchNormalization
 from keras.utils import np_utils
+# reduce learning rate when stopped improving
+from keras.callbacks import ReduceLROnPlateau
 
 from sklearn.metrics import confusion_matrix , classification_report
+
+# Over- and Undersampler to create more equaly distributed data
+from imblearn.over_sampling import RandomOverSampler 
+from imblearn.under_sampling import RandomUnderSampler
+
+from hyperas import optim
+from hyperopt import Trials, STATUS_OK, tpe
+
+from keras import backend as K
+
+import numpy as np
