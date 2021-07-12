@@ -1,6 +1,6 @@
 # Data-Exploration Project "Skin-Cancer" WWI19DSB
 ## Goal of the Project
-This Project is about analyzing Data based on the dataset [here](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) and creating a model that will predict the correct type of skin cancer.
+This Project is about analyzing Data based on the dataset [here](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) and creating a model that will predict the correct type of skin cancer. The files for the models can be found [here](https://drive.google.com/drive/folders/1o_JC-wZeNbwXNIH9eW53mpVD1Z1mGZeM?usp=sharing).
 
 ## Group Members
 Andreas Edte \
